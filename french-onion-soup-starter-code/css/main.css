@@ -18,7 +18,7 @@ body{
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 #hero h1{
@@ -103,4 +103,14 @@ padding: 0 6px;
 
 .border-right{
   border-right: 1.5px solid grey;
+}
+
+#hero a{
+  color: white;
+  margin-right: 10px;
+  font-size: 2.5em;
+}
+
+#hero a :hover{
+  font-size: 1.1  em;
 }
